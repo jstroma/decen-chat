@@ -5761,7 +5761,11 @@ var app = (function () {
     	let h3;
 
     	const block = {
-    		
+    		c: function create() {
+    			h3 = element("h3");
+    			h3.textContent = "Decentralized Chat";
+    			add_location(h3, file$1, 22, 6, 481);
+    		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
     		},
