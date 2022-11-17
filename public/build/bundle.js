@@ -5763,7 +5763,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			h3 = element("h3");
-    			h3.textContent = "Decentralized Chat";
+    			h3.textContent = " ";
     			add_location(h3, file$1, 22, 6, 481);
     		},
     		m: function mount(target, anchor) {
